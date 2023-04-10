@@ -3,5 +3,6 @@ void main(List<String> args) {
   final String finalName;
 
   print(constName);
-  print(finalName = "Text");
+  finalName = "Txt";
+  print(finalName);
 }
