@@ -4,7 +4,7 @@ Projeto Dart 2 - Orientação a objetos
 		Contato
 	Funções
 		Exibir contatos
-		Buscar contatos
-		Ordenar contatos
-		Salvar mais de um telefone do contato
+		add contatos
+		del cotatos
+		salvar lista de telfones
 		Salvar endereço comercial e residencial do contato
