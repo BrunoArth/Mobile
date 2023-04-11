@@ -1,8 +1,8 @@
 class Contact {
-  String? name;
+  final String? name;
   List<dynamic> phones;
-  String? homeAddress;
-  String? businessAddress;
+  final String? homeAddress;
+  final String? businessAddress;
 
   Contact(this.name, this.phones, this.homeAddress, this.businessAddress) {}
 }
