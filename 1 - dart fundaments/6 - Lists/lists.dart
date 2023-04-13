@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  List<String> list = ["Brarths", "de", "botas"];
+  List<String> list = ["Bats", "d", "bot"];
   List<String> sublist = list.sublist(1, 2);
   print(sublist);
 
@@ -8,9 +8,9 @@ void main(List<String> args) {
   });
 
   print(list.contains("Br"));
-  print(list.contains("Botas"));
-  print(list.contains("botas"));
-  print(!list.contains("botas"));
+  print(list.contains("Bot"));
+  print(list.contains("b"));
+  print(!list.contains("ba"));
 
   list.reduce((value, element) {
     return value + " " + element;
