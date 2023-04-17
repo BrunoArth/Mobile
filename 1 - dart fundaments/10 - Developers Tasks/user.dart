@@ -36,5 +36,7 @@ abstract class User {
   User(this._id, this._name, this._mail, this._phone, this._login, this._pass,
       this._tasks) {}
 
-  fazerLogin(String login, String email) {}
+  addTask(Task task) {
+    this._tasks.add(task);
+  }
 }

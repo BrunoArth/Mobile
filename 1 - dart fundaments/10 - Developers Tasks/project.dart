@@ -2,6 +2,7 @@ import 'programmingLanguagens.dart';
 import 'task.dart';
 
 class Project {
+  int id;
   String _name;
   String _status;
   final DateTime _dataInicio;
@@ -31,7 +32,7 @@ class Project {
 
   set programmingLanguagens(value) => this._programmingLanguagens = value;
 
-  Project(this._name, this._status, this._dataInicio, this._dataPrazo,
+  Project(this.id, this._name, this._status, this._dataInicio, this._dataPrazo,
       this._programmingLanguagens, this._tasks) {}
 
   addTask(Task task) {
@@ -48,5 +49,9 @@ class Project {
 
   deleteProgrammingLanguagens(int id) {
     this._programmingLanguagens.remove(id);
+  }
+
+  taskLength() {
+    return this._tasks.length;
   }
 }

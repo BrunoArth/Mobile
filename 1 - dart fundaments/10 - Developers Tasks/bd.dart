@@ -1,5 +1,6 @@
 import 'full.dart';
 import 'junior.dart';
+import 'programmingLanguagens.dart';
 import 'project.dart';
 import 'senior.dart';
 import 'user.dart';
@@ -13,7 +14,10 @@ class Bd {
         2, 'junior', 'junior@juior.com', '00000-000', 'junior', 'junior', [])
   ];
 
-  List<Project> projects = [];
+  List<Project> projects = [
+    new Project(0, "Dev Tasks", "em adamento", DateTime(2022, 4, 12),
+        DateTime(2022, 4, 23), [new ProgrammingLanguagens("Dart", "", 3.2)], [])
+  ];
 
   List<Project> get getProjects => this.projects;
 
