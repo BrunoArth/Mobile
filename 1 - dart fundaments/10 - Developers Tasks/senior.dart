@@ -4,8 +4,9 @@ import 'task.dart';
 import 'user.dart';
 
 class Senior extends User {
-  Senior(super.id, super.name, super.mail, super.phone, super.login, super.pass,
-      super.tasks);
+  Senior(int id, String name, String mail, String phone, String login, String pass, List<Task> tasks) : super(id, name, mail, phone, login, pass, tasks);
+
+  
 
   entregarTask(Task task) {}
   pegarTask(Task task) {}

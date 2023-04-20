@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_start/my_scaffold.dart';
+
+
 
 void main() {
   runApp(
-    const Center(
-      child: Text(
-        'Hello, world!',
-        textDirection: TextDirection.ltr,
+    const MaterialApp(
+      title: 'My app', // used by the OS task switcher
+      home: SafeArea(
+        child: MyScaffold(),
       ),
     ),
   );

@@ -9,5 +9,5 @@ mixin Piloted {
 }
 
 class PilotedCraft extends Spacecraft with Piloted {
-  PilotedCraft(super.name, super.launchDate);
+  PilotedCraft(String name, DateTime? launchDate) : super(name, launchDate);
 }
