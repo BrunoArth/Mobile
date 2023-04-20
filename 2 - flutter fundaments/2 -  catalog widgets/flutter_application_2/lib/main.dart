@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String 'Catalog Widgets';
+  final String title;
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -65,9 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Button(
-  
-            )
+          
           ],
         ),
       ),
